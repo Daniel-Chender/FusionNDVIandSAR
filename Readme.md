@@ -1,5 +1,5 @@
 # Code for Journal of Agricultural and Forest Metrology Paper
-This repository contains the code for the paper "A Novel Method for Estimating Crop Yield Using Remote Sensing Data and Random Forest Model" submitted to the Journal of Agricultural and Forest Metrology. This paper proposes an ensemble-based data fusion framework that combines SAR and auxiliary environmental data including temperature, soil moisture, evaporation and precipitation to produce high-precision and dense NDVI time series for corn and soybean. Suggestions for model input parameters were provided based on an improved importance ranking method of RF model. The framework also constructs dense and precise NDVI time series using the weighted least square model, which assigns weights based on an ensemble-based uncertainty quantification method. The proposed method performed well in filling data gaps in both the vegetative and reproductive stages of crops for both crops.
+This repository contains the code for the paper "Crop NDVI time series construction by fusing Sentinel-1, Sentinel-2, and environmental data with an ensemble-based framework" submitted to the Computers and Electronics in Agriculture. This paper proposes an ensemble-based data fusion framework that combines SAR and auxiliary environmental data including temperature, soil moisture, evaporation and precipitation to produce high-precision and dense NDVI time series for corn and soybean. Suggestions for model input parameters were provided based on an improved importance ranking method of RF model. The framework also constructs dense and precise NDVI time series using the weighted least square model, which assigns weights based on an ensemble-based uncertainty quantification method. The proposed method performed well in filling data gaps in both the vegetative and reproductive stages of crops for both crops.
 
 ## Data Processing Code
 The data processing code includes two parts: ***ImageParser.py*** and ***DataPreprocess.py***.
@@ -33,3 +33,17 @@ This code is licensed under MIT License. You can use it for any non commercial p
 
 ## Contact
 If you have any questions or suggestions about our code or paper, please feel free to contact us at chendr7@mail2.sysu.edu.cn. We appreciate your feedback!
+
+## Citation
+If you find this paper useful in your research, please consider citing:
+```
+@article{chen2023crop,
+  title={Crop NDVI time series construction by fusing Sentinel-1, Sentinel-2, and environmental data with an ensemble-based framework},
+  author={Chen, Dairong and Hu, Haoxuan and Liao, Chunhua and Ye, Junyan and Bao, Wenhao and Mo, Jinglin and Wu, Yue and Dong, Taifeng and Fan, Hong and Pei, Jie},
+  journal={Computers and Electronics in Agriculture},
+  volume={215},
+  pages={108388},
+  year={2023},
+  publisher={Elsevier}
+}
+```
